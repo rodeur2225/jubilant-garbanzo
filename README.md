@@ -1,2 +1,2 @@
 # jubilant-garbanzo
-iconset et fon de carte Nagvis
+iconsets et fonds de carte Nagvis
