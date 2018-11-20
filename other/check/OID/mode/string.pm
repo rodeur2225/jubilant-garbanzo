@@ -48,6 +48,8 @@ just a random msg
 
 =over 8
 
+=item B<--oid>
+
 oid you wanna read (need --hostname)
 
 =item B<--hostname>
