@@ -15,8 +15,6 @@ sub new {
                                 { 
                                   "hostname:s"         => { name => 'hostname' },
                                   "oid"                => { name => 'oid' },
-                                  "warning:s"          => { name => 'warning', default => '' },
-                                  "critical:s"         => { name => 'critical', default => '' },
                                 });
     return $self;
 }
@@ -29,14 +27,6 @@ sub check_options {
     if (!defined($self->{option_results}->{oid})) {
        $self->{output}->add_option_msg(short_msg => "Need to specify an oid.");
        $self->{output}->option_exit(); 
-    }
-    if (($self->{perfdata}->threshold_validate(label => 'warning', value => $self->{option_results}->{warning})) == 0) {
-       $self->{output}->add_option_msg(short_msg => "Wrong warning threshold '" . $self->{option_results}->{warning} . "'.");
-       $self->{output}->option_exit();
-    }
-    if (($self->{perfdata}->threshold_validate(label => 'critical', value => $self->{option_results}->{critical})) == 0) {
-       $self->{output}->add_option_msg(short_msg => "Wrong critical threshold '" . $self->{option_results}->{critical} . "'.");
-       $self->{output}->option_exit();
     }
 }
 
@@ -56,21 +46,11 @@ just a random msg
 
 =over 8
 
-=item B<--warning>
-
-Warning Threshold
-
-=item B<--critical>
-
-Critical Threshold
-
-=item B<--oid>
-
-oid you wanna read
+oid you wanna read (need --hostname)
 
 =item B<--hostname>
 
-Hostname to query (need --remote).
+Hostname to query.
 
 =back
 
