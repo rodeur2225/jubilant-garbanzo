@@ -29,6 +29,11 @@ sub check_options {
        $self->{output}->add_option_msg(short_msg => "Need to specify an oid.");
        $self->{output}->option_exit(); 
     }
+    
+    if (!defined($self->{option_results}->{hostname})) {
+       $self->{output}->add_option_msg(short_msg => "Need to specify an hostname.");
+       $self->{output}->option_exit(); 
+    }
 }
 
 sub run {
