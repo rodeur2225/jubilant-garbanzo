@@ -6,7 +6,7 @@ package other::check::OID::plugin;
 
 use strict;
 use warnings;
-use bas qw(centreon::plugins::script_simple);
+use base qw(centreon::plugins::script_simple);
 
 sub new {
   my ($class, %options) = @_;
