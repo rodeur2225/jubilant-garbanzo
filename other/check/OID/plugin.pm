@@ -2,7 +2,7 @@
 #  Rod'n
 # 21/11/18
 
-package other::check::OID
+package other::check::OID::plugin;
 
 use strict;
 use warnings;
