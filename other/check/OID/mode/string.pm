@@ -38,6 +38,9 @@ sub check_options {
 
 sub run {
   my ($self, %option) = @_;
+  
+  $result = $self->get_request({oid});
+  
   $self->{output}->output_add(severity => 'OK',short_msg => 'hello banana');
   $self->{output}->display();
   $self->{output}->exit();
