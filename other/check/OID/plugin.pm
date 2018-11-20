@@ -15,7 +15,7 @@ sub new {
   
   $self->{version} = '0.1';
   %{$self->{modes}} = (
-    'string' => 'other::check::OID::string',
+    'string' => 'other::check::OID::mode::string',
     );
    return $self;
 }
