@@ -41,7 +41,7 @@ sub run {
   
   $result = $self->get_request({oid});
   
-  $self->{output}->output_add(severity => 'OK',short_msg => 'hello banana');
+  $self->{output}->output_add(severity => 'OK',short_msg => $result);
   $self->{output}->display();
   $self->{output}->exit();
 }
