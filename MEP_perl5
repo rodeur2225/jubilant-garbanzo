@@ -1,0 +1,36 @@
+cette Mise En Place nécessite : 
+- Perl (5.16.3 de préférence)
+- Git (voir : https://gist.github.com/derhuerst/1b15ff4652a867391f03 )
+
+cette installation est nécéssaire quand on recupère les plugins nagios car sur la derniere version de centreon la 18.10 (en novembre 2018) ne contient pas ces modules perl
+
+les dossier contenu dans le dossier Nagvis de ce git sont de la forme :
+ce dossier contient tout les module de perl utile a la version 3.4 de centreon
+
+pour installer les modules (sur une installation ISO centreon) :
+(Les chemin sont peut être différent sur vos machine mais le principe restent le même)
+
+```shell
+cd /usr/share/
+```
+
+```shell
+git clone https://github.com/rodeur2225/jubilant-garbanzo.git
+```
+
+```shell
+mv jubilant-garbanzo/perl5 .
+```
+
+ATTENTION en faisant ceci votre os va vous demandez (un par un) si vous voulez ecrasez les fichier deja present dans perl5
+refusez , par sécurité
+pour faire cela efficacement ne vous embeter pas a repondre non a chaque fois, si vous ne donnez pas de reponse et appuyer sur entrée on considère que vous dite non, rester appuyer sur entrée et toute les question defilerons
+
+```shell
+rm -rf jubilant-garbanzo
+```
+
+le seul moyen de savoir si l'installationa fonctoinner et de la tester 
+(par les plugins de nagios par exemple)
+
+__END__
