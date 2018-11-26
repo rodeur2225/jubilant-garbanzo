@@ -52,6 +52,7 @@ my %OPTION = ("host" => undef,
     "snmp-priv-key" => undef, "snmp-priv-password" => undef, "snmp-priv-protocol" => "DES",
     "maxrepetitions" => undef, "snmptimeout" => undef,
     "64-bits" => undef,
+
     'help' => undef, 
     'output' => 'The value is %f');
 my %ERRORS = ('OK' => 0, 'WARNING' => 1, 'CRITICAL' => 2, 'UNKNOWN' => 3);
@@ -88,6 +89,7 @@ GetOptions
 
 my $unit = undef;
 my $output = undef;
+my $currentValue =undef;
 
 # Table used when personnal threshold are set
 my @critical_table = ();
@@ -134,7 +136,8 @@ my $session = Centreon::SNMP::Utils::connection($ERRORS{'UNKNOWN'}, $session_par
 
 # Get the value returned by OID
 my $result = Centreon::SNMP::Utils::get_snmp_leef([$OPTION{'oid'}], $session, $ERRORS{'UNKNOWN'});
-my $currentValue = $result->{$OPTION{'oid'}};
+$currentValue = $result->{$OPTION{'oid'}};
+p
 
 # Check if value returned is a number and then save it
 if (!defined($currentValue) ||  $currentValue =~ /noSuch/){
@@ -196,6 +199,9 @@ if (defined($currentValue)) {
         print(" Statut = $status \n ") if($OPTION{'debug'});
         printf($output."\n",$state,$returnValue);
         exit $ERRORS{$status};
+    } else {
+        printf("value : ".$returnValue."\n");
+        exit $ERRORS{'OK'};
     }
 } else {
     print "CRITICAL Host unavailable\n";
