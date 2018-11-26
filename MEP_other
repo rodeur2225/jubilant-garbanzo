@@ -1,1 +1,38 @@
-https://github.com/centreon/centreon-plugins
+cette Mise En Place nécessite : 
+- Centreon (version compatible avec nagvis, voir : https://www.centreon.com/en/ ) 
+- la version opensources des plugins centreon  (voir : https://github.com/centreon/centreon-plugins)
+- Git (voir : https://gist.github.com/derhuerst/1b15ff4652a867391f03 )
+
+les dossier contenu dans le dossier Nagvis de ce git sont de la forme :
+l'arboressence de ce dossier correspondra au chemin donné a centreon_plugin.pl pour aller recuperer le plugin
+pour le plugin OID on (other::check::OID) on retrouve :
+plugin.pm (le resumé du plugin ainsi que laccés a ces différent mode sour la forme de chemin) [other::check::OID::plugin]
+mode (le dossier contenant les différent modes du plugin) [other::check::OID::mode]
+
+pour installer cette arborescense de plugin :
+
+```Shell
+cd /usr/lib/centreon/plugins/centreon-plugins
+```
+
+```Shell
+git clone https://github.com/rodeur2225/jubilant-garbanzo.git
+```
+
+```Shell
+mv jubilant-garbanzo/other .
+```
+
+```Shell
+rm -rf jubilant/garbanzo
+```
+
+vérifier l'installation avec la commande suivante
+```Shell
+perl centreon_plugins.pl --list-plugin | grep other
+```
+si une ligne apparait contenant le chemin other::check c'est que tout est bine installer
+ATTENTION l'installation ne garantit pas le fonctionnement du plugin (a cet instant t il n'est pas fonctionnelle et ne le sera peut etre jamais)
+
+__END__
+
