@@ -10,4 +10,6 @@ si quelq'un tombe la dessus (si cela est possible ...) ce git contient des eleme
 - (Net) le mudole Net de Perl5
 - (other/check/OID) un essai de plugin centreon
 - (perl5) tous les module perl5 present sur mon ancien CentOS
-- (
+- (plugins) les plugin Nagios qui etait disponible sur centreon 3.4
+- (automake) l'archive pour installer automake
+- l'archive pour installer Perl5 ver 5.16.3
