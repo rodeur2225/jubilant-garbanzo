@@ -9,7 +9,8 @@ pour le plugin OID on (other::check::OID) on retrouve :
 plugin.pm (le resumé du plugin ainsi que laccés a ces différent mode sour la forme de chemin) [other::check::OID::plugin]
 mode (le dossier contenant les différent modes du plugin) [other::check::OID::mode]
 
-pour installer cette arborescense de plugin :
+pour installer cette arborescense de plugin (sur une installation ISO centreon) :
+(Les chemin sont peut être différent sur vos machine mais le principe restent le même)
 
 ```Shell
 cd /usr/lib/centreon/plugins/centreon-plugins
