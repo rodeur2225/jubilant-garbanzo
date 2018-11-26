@@ -23,7 +23,10 @@ mv jubilant-garbanzo/Nagvis/[nom de l'iconset]_iconset/*_* .
 ```
 remplacer le [nom de l'iconset] par le nom de celui que vous souhaitez installer
 repeter le mv pour chaque inconset que vous souhaitez installer
-  
+
 verfifer la présences des icones par un ls
 
+```shell
+rm-rf jubilant-garbanzo
+```
 __END__
