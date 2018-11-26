@@ -1,0 +1,39 @@
+cette Mise En Place nécessite : 
+- Git (voir : https://gist.github.com/derhuerst/1b15ff4652a867391f03 )
+
+pour fonctionner les plugins on besoins de la mise en place du dossier perl5 de ce git
+
+les dossier contenu dans le dossier Nagvis de ce git sont de la forme :
+ce dossier contient les plugins de nagios qui etait encore présent sur la version 3.4 de centreon
+
+pour installer ces plugins (sur une installation ISO centreon) :
+(Les chemin sont peut être différent sur vos machine mais le principe restent le même)
+
+```shell
+cd /usr/lib/
+```
+
+```shell
+mkdir nagios
+```
+
+```shell
+cd nagios
+```
+
+```shell
+git clone https://github.com/rodeur2225/jubilant-garbanzo.git
+```
+
+```shell
+mv jubilant-garbanzo/plugins .
+```
+
+```shell
+rm -rf jubilant-garbanzo
+```
+
+le seul moyen de savoir si l'installation fonctionne et de la tester 
+
+
+__END__
