@@ -13,3 +13,5 @@ si quelq'un tombe la dessus (si cela est possible ...) ce git contient des eleme
 - (plugins) les plugin Nagios qui etait disponible sur centreon 3.4
 - (automake) l'archive pour installer automake
 - l'archive pour installer Perl5 ver 5.16.3
+
+pour savoir ou et comment placer les different composant de ce git veuillez vous referez au MEP (Mise en place) de chaque composant
