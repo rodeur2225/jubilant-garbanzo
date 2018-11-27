@@ -1,0 +1,73 @@
+/*--- exportation de la configuration ---*/
+aprés avoir :
+- ajouter un hote/service
+- supprimer un hote/service
+- modifier un hote/service
+tout autre travail sur centreon ne nécéssite pas une exportation
+
+rendez vous dans configuration->pollers->poller
+cliquez sur le bouton exporter la configuration
+1. selectionner le poller(collecteur)
+2. cochez "Generate Configuration Files" et "Run monitoring engine debug"
+3. cliquez sur export
+  verifier qu'il n'y ai pas d'erreur
+4. decochez les deux precedent et cochez "Move Export Files" et "Restart Monitoring engine" sur [Reload]
+5. cliquez sur export
+
+la configuration est exporté revener sur la page de monitoring pour voir les effets 
+(les bulles d'info en haut de l'écran ne s'actualise pas immédiatement aprés l'exportation rafraichisser la page (f5) pour voire les modifications) 
+
+/*--- la configuration n'est pas exporter ---*/
+quand votre configuration n'est pas visible dans la partie monitoring c'est qu'elle na pas été exporter
+rendez vous dans l'interface en ligne de commande de centreon (accessible via ssh) et taper :
+systemctl restart cbd (a pour effet de redémarrer centreon broker)
+
+si cela ne fonctionne pas verifier c'est différent élément toujours via le terminal :
+- service centcore status (vérifie si le coeur est actif)
+- service centengine status (vérifie si le moteur est actif)
+- service cbd status (vérifie si le broker est actif)
+- netstat -plant | grep 5669 (vérifie les connexion tcp) (regardez si le cbd est sur LISTEN)
+
+
+/*--- les service supprimé apparaissent toujours ---*/
+il arrive que quand on renomme ou on supprime un service il ne soit plus reconnu par centreon mais reste afficher sur les fenetre de monitoring
+pour supprimer ce doublon ou reminiscence
+
+rendez vous dans configuration->pollers->poller
+cliquez sur le bouton exporter la configuration
+
+1. cochez UNIQUEMENT Restart Monitoring Engine sur [Restart]
+2. cliquez sur export
+
+Si cela ne fonctionne pas refaite un exportation complète mais a l'étape 4 au lieu de placer l'engine sur [Reload] placer le sur [Restart]
+
+/*--- Central not runing ---*/
+quand l'icone et rouge en haut a gauche de l'écran cela signifie que le collecteur ne fonctionne pas les données de monitoring ne se mettent donc plus a jour
+pour regler cela vous pouvez essayer tout d'abord de [Restart] le Monitoring Engine (exportation de config)
+sinon rendez vous dans l'interface en ligne de commande de centreon (accessible via ssh) et taper :
+systemctl restart cbd (a pour effet de redémarrer centreon broker)
+
+/*--- Pas de notification mail ---*/
+verifiez la configuration de postfix
+
+/*--- l'exportation de la configuration reste a 0% ---*/
+passer par autre navigateur web
+ou vider le cache de celui que vous utilisez
+
+/*--- les mises a jour ---*/
+il suffit de suivre la documentation elle est suffisament claire pour etre suivi
+MAIS si lors de la mise a jour des package on obtient une erreu faite ceci :
+```Shel
+yum clean all
+rm -rf /var/cache/yum/*
+```
+et relancer la mise a jour de centreon avec:
+```Shell
+yum update centreon*
+```
+
+aprés la mise ajour vérifier si les syntaxes de vos commande son encore compatible ,verifier aussi les chemin d'accés dans Configuration->poller->resources
+
+/*--- erreur de suppression de carte dans nagvis ---*/
+il arrive que la suppression de carte ne se deroule pas comme prévue dans nagvis et que votre carte sois rest affiché sois provoque une erreur iréparable depuis l'interface web 
+pour crriger sa faite un locate du nom de votre carte dans le terminal et supprimer manuellement tout les fichier contenant le cnom de votre carte (verifier quand meme que ces fichier que vous comptez supprimer appartiennent a nagvis)
