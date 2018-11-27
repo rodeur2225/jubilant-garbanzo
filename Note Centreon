@@ -1,3 +1,10 @@
+c'est note sont écrite en fonction de mon experience du logiciel 
+ce ne sont pas des solutions a tout vos probleme et peut même pas des solution du tout en fonction de votre probleme
+si vous rencontrez un probleme que vous n'arrivez pas a résoudre
+refferrez vous a la parite ISSUE du github de centreon 
+ou faite directement votre demande sur le github de centreon la caummunauté et active
+pensez aussi a faire un tour du côté des ateliers de kermith proposé par Eric Coquard lui aussi trés actif sur centreon
+
 /*--- exportation de la configuration ---*/
 aprés avoir :
 - ajouter un hote/service
