@@ -1,10 +1,3 @@
-c'est note sont écrite en fonction de mon experience du logiciel 
-ce ne sont pas des solutions a tout vos probleme et peut même pas des solution du tout en fonction de votre probleme
-si vous rencontrez un probleme que vous n'arrivez pas a résoudre
-refferrez vous a la parite ISSUE du github de centreon 
-ou faite directement votre demande sur le github de centreon la caummunauté et active
-pensez aussi a faire un tour du côté des ateliers de kermith proposé par Eric Coquard lui aussi trés actif sur centreon
-
 /*--- exportation de la configuration ---*/
 aprés avoir :
 - ajouter un hote/service
@@ -58,31 +51,6 @@ pour regler cela vous pouvez essayer tout d'abord de [Restart] le Monitoring Eng
 sinon rendez vous dans l'interface en ligne de commande de centreon (accessible via ssh) et taper :
 systemctl restart cbd (a pour effet de redémarrer centreon broker)
 
-/*--- Pas de notification mail ---*/
-verifiez la configuration de postfix
-
 /*--- l'exportation de la configuration reste a 0% ---*/
 passer par autre navigateur web
 ou vider le cache de celui que vous utilisez
-
-/*--- les mises a jour ---*/
-il suffit de suivre la documentation elle est suffisament claire pour etre suivi
-MAIS si lors de la mise a jour des package on obtient une erreu faite ceci :
-```Shel
-yum clean all
-rm -rf /var/cache/yum/*
-```
-et relancer la mise a jour de centreon avec:
-```Shell
-yum update centreon*
-```
-
-aprés la mise ajour vérifier si les syntaxes de vos commande son encore compatible ,verifier aussi les chemin d'accés 
-dans Configuration->poller->resources
-
-/*--- erreur de suppression de carte dans nagvis ---*/
-il arrive que la suppression de carte ne se deroule pas comme prévue dans nagvis et que votre carte sois rester affiché 
-sois provoque une erreur iréparable depuis l'interface web 
-pour crriger sa faite un locate du nom de votre carte dans le terminal 
-et supprimer manuellement tout les fichier contenant le nom de votre carte 
-(verifier quand meme que ces fichier que vous comptez supprimer appartiennent a nagvis)

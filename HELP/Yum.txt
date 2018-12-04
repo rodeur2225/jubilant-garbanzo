@@ -1,0 +1,12 @@
+/*--- erreur 404 ---*/
+si yum renvoie une erreure 404 c'est potentiellement a cause du cache qu'il accumule
+pour  arranger ça :
+yum clean all (nettoie le cache de yum)
+rm -rf /var/cache/yum (supprime le dossier de chache de yum ,permet de se débarraser des orphelins)
+
+si cela ne fonctionne toujours pas et que les repo sont indsponible
+faite un vi(m) de /etc/yum.conf
+ajouter la ligne suivante :
+	http_caching=packages
+
+pour verifier si sa fonctionne a nouveau faite un yum check-update ou un update

@@ -1,0 +1,14 @@
+/*--- les mises a jour ---*/
+il suffit de suivre la documentation elle est suffisament claire pour etre suivi
+MAIS si lors de la mise a jour des package on obtient une erreu faite ceci :
+```Shel
+yum clean all
+rm -rf /var/cache/yum/*
+```
+et relancer la mise a jour de centreon avec:
+```Shell
+yum update centreon*
+```
+
+aprés la mise ajour vérifier si les syntaxes de vos commande son encore compatible ,verifier aussi les chemin d'accés 
+dans Configuration->poller->resources

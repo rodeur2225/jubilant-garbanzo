@@ -1,0 +1,6 @@
+/*--- erreur de suppression de carte dans nagvis ---*/
+il arrive que la suppression de carte ne se deroule pas comme prévue dans nagvis et que votre carte sois rester affiché 
+sois provoque une erreur iréparable depuis l'interface web 
+pour crriger sa faite un locate du nom de votre carte dans le terminal 
+et supprimer manuellement tout les fichier contenant le nom de votre carte 
+(verifier quand meme que ces fichier que vous comptez supprimer appartiennent a nagvis)
