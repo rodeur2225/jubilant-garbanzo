@@ -1,0 +1,10 @@
+cd /usr/share/nagvis/share/userfiles/images/iconset
+
+git clone https://github.com/rodeur2225/jubilant-garbanzo.git
+
+cd /jubilant-garbanzo/Nagvis/[pack d'icone]
+
+mv [abrége du pack]_* ../../..
+
+[pack d'icone] = [abrége du pack]_iconset
+[abrége du pack] = un diminutif du pack comme std pour standar sw pour switch ...

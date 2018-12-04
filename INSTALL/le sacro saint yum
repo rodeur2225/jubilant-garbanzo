@@ -1,0 +1,19 @@
+avant tout par yum installer ces paquets :
++ mlocate (permet de localiser des fichier)
+  (locate execute une recherche dans sa base de donné lancer updatedb a l'installation et aprés de grosse modification dans l'arborescence de votre machine)
++ vim (un editeur avec une coloration syntaxique pratique mais pas obligatoire)
+
+installer tout centreon avec yum
+quasiment tout les plugin widget et module de centreon peuvent être installer en une seul commande,
+en réalisant un yum search centreon
+on peut voir tout les paquets disponible pour centreon
+!! le paquet de debuginfo pour nrpe3 n'est pas signé il fera planter l'installation des autres paquets !!
+pour tout installer taper
+yum install -y --exclude=*nrpe3* centreon-*
+  -y repond oui automatiquement au question d'installation (pas d'inquiétude il n'y pas de danger a repondre oui a tout)
+  --exclude=regexp permet d'exclure de l'installation tout les paquet correspondant a l'expression reguliere
+      (ici on exclu nrpe)
+  si vous ne voulez pas le detail de l'installation vous pouvez rajoutez -q (quiet) pour activer l'installation silencieuse
+  
+  
+si vous rencontrez des probleme avec yum tel q'une erreur 404 referez vous au fichier note centreon
