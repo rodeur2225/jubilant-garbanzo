@@ -1,0 +1,6 @@
+les commandes rpm :
+  https://www.system-linux.eu/index.php?post/2008/12/21/Commande-rpm
+  en bref :
+    + Installer un paquet : rpm -ihv [paquet].rpm
+    + Désinstaller un paquet : rpm -e [paquet] (! sans l'extension rpm !)
+    + La recherche : rpm -q [paquet] (! sans l'extension rpm !)
