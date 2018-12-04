@@ -15,5 +15,6 @@ pour savoir ou et comment placer les different composant de ce git veuillez vous
 
 si vous souhaitez installer tout les plugins disponilbe (en open source) de centreon ainsi que tout les widgets 
   (le tout avec les dépendance au module perl et au librairie qui vont avec)
-allez lire le sacro saint yum
+allez lire le sacro saint yum.
+
 !! si vous réaliser cette installation n'installer pas 1_module perl il sera inutil et risque de créé des conflit !!
