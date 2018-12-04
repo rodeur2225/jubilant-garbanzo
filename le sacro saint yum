@@ -1,1 +1,5 @@
+avant tout par yum installer ces paquets :
++ mlocate
++ vim
 
+installer tout centreon avec vim (encore en test)
