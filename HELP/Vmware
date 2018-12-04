@@ -1,0 +1,8 @@
+/*--- pas de reponse ou probleme de connexion avec les plugin vmware ---*/
+si la connection du connecteru est impossible ou bien si le plugin timeout regarder si centreon vmware et configurer,
+en effet il faut lui donner un accés au serveur vmwarepour pouvoir executer le plugin correctement
+créé donc d'abord un compte pour centreon sur le serveur vmware
+
+et renseigner le fichier /etc/centreon/centreon_vmware.pm
+
+ce fichier contient l'adresse du serveur et les information de connexion au serveur
