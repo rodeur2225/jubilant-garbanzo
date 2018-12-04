@@ -4,3 +4,12 @@ les commandes rpm :
     + Installer un paquet : rpm -ihv [paquet].rpm
     + Désinstaller un paquet : rpm -e [paquet] (! sans l'extension rpm !)
     + La recherche : rpm -q [paquet] (! sans l'extension rpm !)
+
+pour les modules perl :
+  https://metacpan.org/
+  installation des modules perl vian CPAN
+  
+les archive tar.gz
+  https://doc.ubuntu-fr.org/tar
+  en bref :
+  + extraire : tar -zxvf
