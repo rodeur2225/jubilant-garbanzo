@@ -1,0 +1,19 @@
+les archives LibZMQ4 / libzmq /et les uuid sont nécéssaire a l'utilisation des plugin vmware
+
+!! si vous avez fais l'installation complete celon le sacro saint yum cette installation est inutile !!
+
+voici l'ordre d'installation :
+
+ZMQ :
+  + libzmq-master.zip
+    (l'installation de cette librairie est faite dans /usr/local/lib un fois l'installation realisé taper cette commande
+     mv /usr/local/lib/libzmq.so.5* /usr/lib64 )
+  + LibZMQ4
+  
+uuid :
+  + uuid-1.6.2-26.el7.x86_64.rpm	
+  + uuid-devel-1.6.2-26.el7.x86_64.rpm
+  + uuid-perl-1.6.2-26.el7.x86_64.rpm
+  + pour completer l'installation du module UUID pour perl taper ceci :
+    + cpan app::cpanminus
+    +cpanm UUID
