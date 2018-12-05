@@ -1,3 +1,13 @@
+au prélable si vous ne l'vaez pas encore fais tapez ces commande :
+  cpan app::cpanminus
+  cpanm Module::Install::AuthorTests
+  cpanm Module::Install::CheckLib
+  cpanm Module::Install::XSUtil
+  cpanm Test::Fatal
+  cpanm Test::Requires
+  cpanm Test::TCP
+  cpanm Devel::CheckLib
+
 les archives LibZMQ4 / libzmq /et les uuid sont nécéssaire a l'utilisation des plugin vmware
 
 !! si vous avez fais l'installation complete celon le sacro saint yum cette installation est inutile !!
@@ -15,5 +25,6 @@ uuid :
   + uuid-devel-1.6.2-26.el7.x86_64.rpm
   + uuid-perl-1.6.2-26.el7.x86_64.rpm
   + pour completer l'installation du module UUID pour perl taper ceci :
-    + cpan app::cpanminus
-    +cpanm UUID
+    + yum install libuuid libuuid-devel
+    + yum install glibc
+    + cpanm UUID
