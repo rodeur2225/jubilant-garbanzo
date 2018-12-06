@@ -1,4 +1,4 @@
-au prélable si vous ne l'vaez pas encore fais tapez ces commande :
+au prélable si vous ne l'avez pas encore fais tapez ces commande :
   cpan app::cpanminus
   cpanm Module::Install::AuthorTests
   cpanm Module::Install::CheckLib
@@ -7,8 +7,9 @@ au prélable si vous ne l'vaez pas encore fais tapez ces commande :
   cpanm Test::Requires
   cpanm Test::TCP
   cpanm Devel::CheckLib
+  (ces module sont nécessaire a l'installation et au test de certain autres module s'il ne sont pas présent il vous serons demandez ou provoquerons un erreurs)
 
-les archives LibZMQ4 / libzmq /et les uuid sont nécéssaire a l'utilisation des plugin vmware
+/*---les archives LibZMQ4 / libzmq /et les uuid sont nécéssaire a l'utilisation des plugin vmware
 
 !! si vous avez fais l'installation complete celon le sacro saint yum cette installation est inutile !!
 
@@ -28,3 +29,5 @@ uuid :
     + yum install libuuid libuuid-devel
     + yum install glibc
     + cpanm UUID
+
+/*---
