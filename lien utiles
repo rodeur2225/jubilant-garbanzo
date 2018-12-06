@@ -13,3 +13,12 @@ les archive tar.gz
   https://doc.ubuntu-fr.org/tar
   en bref :
   + extraire : tar -zxvf
+
+La bible de centreon
+  un site internet ecrit par Eric Coquard et qui propose des solution et des tuto pour centreon il tres actif sur sa page
+  http://www.sugarbug.fr/atelier/
+  
+le github centreon
+  ils sont aussi tres actifs et s'occupe de toute la partie open source c'est eux qui sont a l'origine du plugin pack tout en un seul plugin
+  https://github.com/centreon
+  
