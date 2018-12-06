@@ -21,6 +21,7 @@ inet_intrerfaces = localhost
 inet_protocols = all
 
 mydestination = 
+(oui cest vide c'est normale)
 
 relayhost = [ [serveur de mail] ]:[port utilisé par le serveur mail]
 
