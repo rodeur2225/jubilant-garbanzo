@@ -6,8 +6,17 @@ cette Mise En Place nécessite :
 les dossier contenu dans le dossier Nagvis de ce git sont de la forme :
 l'arboressence de ce dossier correspondra au chemin donné a centreon_plugin.pl pour aller recuperer le plugin
 pour le plugin OID on (other::check::OID) on retrouve :
-plugin.pm (le resumé du plugin ainsi que laccés a ces différent mode sour la forme de chemin) [other::check::OID::plugin]
+plugin.pm (le resumé du plugin ainsi que l'accés a ces différent mode sour la forme de chemin) [other::check::OID::plugin]
 mode (le dossier contenant les différent modes du plugin) [other::check::OID::mode]
+
+|arborescence|
+Other
+  |-> check
+        |-> OID
+             |-> plugin.pm
+             |-> mode
+                   |-> string.pm
+
 
 pour installer cette arborescense de plugin (sur une installation ISO centreon) :
 (Les chemin sont peut être différent sur vos machine mais le principe restent le même)
