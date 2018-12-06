@@ -1,12 +1,10 @@
 cette Mise En Place nécessite : 
 - Git (voir : https://gist.github.com/derhuerst/1b15ff4652a867391f03 )
 
-pour fonctionner les plugins on besoins de la mise en place du dossier perl5 de ce git
-
-les dossier contenu dans le dossier Nagvis de ce git sont de la forme :
 ce dossier contient les plugins de nagios qui etait encore présent sur la version 3.4 de centreon
 
 pour installer ces plugins (sur une installation ISO centreon) :
+(le yum install centreon-* n'installe pas les plugin de nagios vous devez le faire vous même)
 (Les chemin sont peut être différent sur vos machine mais le principe restent le même)
 
 ```shell
