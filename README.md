@@ -18,3 +18,6 @@ si vous souhaitez installer tout les plugins disponilbe (en open source) de cent
 allez lire le sacro saint yum.
 
 !! si vous réaliser cette installation n'installer pas 1_module perl il sera inutil et risque de créé des conflit !!
+
+si il y a un probleme une question vous pouvez toujour laissez une issue (je repondrais si je peut)
+  
