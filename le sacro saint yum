@@ -18,6 +18,11 @@ yum install -y --exclude=*nrpe3* centreon-*
   si vous ne voulez pas le detail de l'installation vous pouvez rajoutez -q (quiet) pour activer l'installation silencieuse
   
 l'installation par yum permet de gerer automatiquement les probleme de dépendance car yum ira lui-m$eme cherchez les paquets nécéssaire 
+
+Néanmoins prenez garde en installant tout carcertain modules ou widget ou autre sont soit inutile imcomplet ou obsolete donc chercher ce dont VOUS avez
+besoin pour centreon
+un MUST a avoir est :
++ centreonawie (permet d'importer et d'exporter tout ce que vous avez fais sur centreon web)
   
   
 si vous rencontrez des probleme avec yum tel q'une erreur 404 referez vous au fichier note centreon
