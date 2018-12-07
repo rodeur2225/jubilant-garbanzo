@@ -19,7 +19,7 @@ yum install -y --exclude=*nrpe3* centreon-*
   
 l'installation par yum permet de gerer automatiquement les probleme de dépendance car yum ira lui-m$eme cherchez les paquets nécéssaire 
 
-Néanmoins prenez garde en installant tout carcertain modules ou widget ou autre sont soit inutile imcomplet ou obsolete donc chercher ce dont VOUS avez
+Néanmoins prenez garde en installant tout car certain modules ou widget ou autre sont soit inutile imcomplet ou obsolete donc chercher ce dont VOUS avez
 besoin pour centreon
 
 un MUST a avoir est :
