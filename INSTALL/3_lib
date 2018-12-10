@@ -8,30 +8,18 @@ pour installer ces plugins (sur une installation ISO centreon) :
 (Les chemin sont peut être différent sur vos machine mais le principe restent le même)
 
 ```shell
-cd /usr/lib/
-```
-
-```shell
-mkdir nagios
-```
-
-```shell
-cd nagios
-```
-
-```shell
 git clone https://github.com/rodeur2225/jubilant-garbanzo.git
 ```
 
 ```shell
-mv jubilant-garbanzo/plugins .
+mv jubilant-garbanzo/3_lib/* /usr/lib
 ```
 
 ```shell
 rm -rf jubilant-garbanzo
 ```
 
-le seul moyen de savoir si l'installation fonctionne et de la tester 
+le seul moyen de savoir si l'installation fonctionne et de tester les plugin (il fonctionne avec perl ,donc pour lancer un plugin on tape : perl monplugin(.pl) ) 
 
 
 __END__
