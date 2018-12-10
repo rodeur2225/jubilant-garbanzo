@@ -7,9 +7,9 @@ rien ne m'appartient sauf le dossier other
 si quelq'un tombe la dessus, ce git contient des éléments qui me sont utile dans centreon 
 
 - (Nagvis) des iconset pour nagvis
-- (other/check/OID) un essai de plugin centreon
+- (other) plugins centreon fait maison
 - (module perl) des archive et rpm de plugin etant utilisé par certain plugin
-- (plugins) les plugin Nagios qui etait disponible sur centreon 3.4
+- (lib) les plugin Nagios qui etait disponible sur centreon 3.4 + des plugins en sh pour other
 
 pour savoir ou et comment placer les different composant de ce git veuillez vous referez au contenu du dossier INSTALL
 
