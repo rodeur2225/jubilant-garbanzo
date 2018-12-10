@@ -27,15 +27,21 @@ sub check_options{
 sub run {
 	my ($self, %options) = @_;
 	my $result = `/usr/lib/centreon_sh/scripts/Export.sh`;
-	my $msg = '';
-	if ( $result == 0 ){
-		$msg = "Export ok (vers /tmp/clapi-export)";
+	my $exit = `echo $?`;
+	my $sev = 'OK';
+	if ($exit == 1){
+		$sev = 'Warning';
 	} else {
-		$msg = "Fail le fichier d'export n'a pas été créé";
+		if($exit == 512){
+			$sev = 'Critical';
+		} else {
+			if ($exit == 768){
+				$sev = 'Unknown';
+			}
+		}
 	}
-	$self->{output}->output_add(severity => $result,
-		short_msg => $msg
-		);
+	$self->{output}->output_add(severity => $sev,
+		short_msg => $result);
 	$self->{output}->display();
 	$self->{output}->exit();
 }
