@@ -20,11 +20,15 @@ if [ ! -d "/tmp/clapi-export" ];then
 fi
 
 /bin/centreon -u admin -p stage2018 -e > $p$d$e
+if [ $? != 0 ];then
+	echo "Command failed verifier les permission de centreon-engine sur le dossier"
+	exit $STATE_UNKNOWN
+fi
 
 if [ -f $p$d$e ];then
-	echo $STATE_OK
+	echo "fichier créé dans /tmp/clapi-export"
 	exit $STATE_OK
 else
-	echo $STATE_CRITICAL
+	echo "ERREUR le fichier n'as pas été créé"
 	exit $STATE_CRITICAL
 fi
