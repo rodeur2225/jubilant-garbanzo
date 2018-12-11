@@ -17,7 +17,7 @@ sudo chmod 775 install.sh
 ```
 
 ## aprés l'installation 
-les element ce trouve dans :
+les éléments ce trouve dans :
  + (centreon-plugins) /usr/lib/centreon/plugins
  + (nagios) /usr/lib
  + (centreon_sh) /usr/lib
