@@ -1,17 +1,18 @@
 # installation de module perl
 
 au prélable si vous ne l'avez pas encore fais tapez ces commande :
-  cpan app::cpanminus
-  cpanm Module::Install::AuthorTests
-  cpanm Module::Install::CheckLib
-  cpanm Module::Install::XSUtil
-  cpanm Test::Fatal
-  cpanm Test::Requires
-  cpanm Test::TCP
-  cpanm Devel::CheckLib
+  + cpan app::cpanminus (en premier c'est trés important sinon vous ne pourrez **PAS** executez les autres)
+  + cpanm Module::Install::AuthorTests
+  + cpanm Module::Install::CheckLib
+  + cpanm Module::Install::XSUtil
+  + cpanm Test::Fatal
+  + cpanm Test::Requires
+  + cpanm Test::TCP
+  + cpanm Devel::CheckLib
+  
   (ces module sont nécessaire a l'installation et au test de certain autres module s'il ne sont pas présent il vous serons demandez ou provoquerons un erreurs)
 
-!! si vous avez fais l'installation complete celon le sacro saint yum cette installation est inutile !!
+_**!!** si vous avez fais l'installation complete celon le sacro saint yum cette installation est inutile **!!**_
 
 ### pour le plugin VMWARE
 
