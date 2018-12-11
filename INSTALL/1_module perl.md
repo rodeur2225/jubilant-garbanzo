@@ -1,3 +1,5 @@
+# installation de module perl
+
 au prélable si vous ne l'avez pas encore fais tapez ces commande :
   cpan app::cpanminus
   cpanm Module::Install::AuthorTests
@@ -9,9 +11,9 @@ au prélable si vous ne l'avez pas encore fais tapez ces commande :
   cpanm Devel::CheckLib
   (ces module sont nécessaire a l'installation et au test de certain autres module s'il ne sont pas présent il vous serons demandez ou provoquerons un erreurs)
 
-/*---les archives LibZMQ4 / libzmq /et les uuid sont nécéssaire a l'utilisation des plugin vmware
-
 !! si vous avez fais l'installation complete celon le sacro saint yum cette installation est inutile !!
+
+### pour le plugin VMWARE
 
 voici l'ordre d'installation :
 
