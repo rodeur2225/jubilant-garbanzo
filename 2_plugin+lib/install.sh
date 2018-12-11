@@ -20,3 +20,4 @@ echo "installation des scripts et plugins nagios"
 mv ./3_lib/* /usr/lib
 echo -e "les scripts sont installé dans /usr/lib/centreon_sh\nles plugins nagios sont installés dans /usr/lib/nagios"
 echo "installation terminé n'oublier pas de supprimer jubilant-garbanzo quand vous aurez fini"
+cd
