@@ -1,7 +1,9 @@
-cette Mise En Place nécessite : 
-- Centreon (version compatible avec nagvis, voir : https://www.centreon.com/en/ ) 
-- nagvis installé (voir : http://www.sugarbug.fr/atelier/techniques/ihmweb/cartographie_supervision/centreon-web28x_nagvis-19x/)
-- Git (voir : https://gist.github.com/derhuerst/1b15ff4652a867391f03 )
+# installation d'iconeset pour nagvis
+
+### nécessite : 
++ [Centreon](https://www.centreon.com/en/) 
++ [nagvis installé](http://www.sugarbug.fr/atelier/techniques/ihmweb/cartographie_supervision/centreon-web28x_nagvis-19x/)
++ [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
 les dossier contenu dans le dossier Nagvis de ce git sont de la forme :
   [nom de l'iconset]_iconset
@@ -26,7 +28,6 @@ repeter le mv pour chaque inconset que vous souhaitez installer
 
 verfifer la présences des icones par un ls
 
-```shell
-rm-rf jubilant-garbanzo
-```
+n'oubliez pas de suprier jubilant-garbanzo quand vou aurez fini
+
 __END__
