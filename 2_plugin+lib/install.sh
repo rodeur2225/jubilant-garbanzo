@@ -11,7 +11,7 @@ chmod 775 ./centreon-plugins/centreon_plugins.pl
 echo "installation de du package de plugin other (plugin perso)"
 mv ./2_other ./centreon-plugins/other
 echo -e "les plugins other sont installer dans centreon-plugins \nles voici :"
-perl ./centreon-plugins/centreon_plugin.pl --list-plugin | grep other
+perl ./centreon-plugins/centreon_plugins.pl --list-plugin | grep other
 echo "tapez <entrer> pour continuer"
 read touch
 mv ./centreon-plugins /usr/lib/centreon/plugins
