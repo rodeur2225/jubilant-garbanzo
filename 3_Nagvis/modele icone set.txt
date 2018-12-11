@@ -31,7 +31,7 @@ Filename	                Description
 
 il faut au moin un <set>_ok.png pour avoir un iconset
 
-minimum :
+minimum a avoir (a mon avis) :
 critical
 down
 ok
