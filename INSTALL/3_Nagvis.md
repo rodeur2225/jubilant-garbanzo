@@ -5,6 +5,24 @@
 + [nagvis installé](http://www.sugarbug.fr/atelier/techniques/ihmweb/cartographie_supervision/centreon-web28x_nagvis-19x/)
 + [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
+## l'install
+
+dans le dossier 3_Nagvis il y a un fichier install.sh lancez le et vous n'aurez plus rien a faire le detail de l'installation et donnée pendant l'installation (tout les iconsets seront installer)
+
+si vous ne pouvez pas lancer install
+
+```Shell
+./install.sh
+```
+
+tapez
+
+```Shell
+sudo chmod 775 install.sh
+```
+
+## installation manuel
+
 les dossier contenu dans le dossier Nagvis de ce git sont de la forme :
   [nom de l'iconset]_iconset
 c'est dossier contiennent 1 set d'icone chacun pour nagvis
@@ -29,21 +47,5 @@ repeter le mv pour chaque inconset que vous souhaitez installer
 verfifer la présences des icones par un ls
 
 n'oubliez pas de suprier jubilant-garbanzo quand vou aurez fini
-
-## l'install
-
-dans le dossier 3_Nagvis il y a un fichier install.sh lancez le et vous n'aurez plus rien a faire le detail de l'installation et donnée pendant l'installation (tout les iconsets seront installer)
-
-si vous ne pouvez pas lancer install
-
-```Shell
-./install.sh
-```
-
-tapez
-
-```Shell
-sudo chmod 775 install.sh
-```
 
 __END__
