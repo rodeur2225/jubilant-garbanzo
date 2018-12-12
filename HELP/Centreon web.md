@@ -125,6 +125,6 @@ ceci a pour effet de redémarrer centreon broker.
 si cela arrrive :
 + changez de navigateur
 + ou vider le cache de votre navigateur actuel
-+si les 2 options du dessus ne fonctionne pas redemarrer centreon broker (vu juste au dessus)
++ si les 2 options du dessus ne fonctionne pas redemarrer centreon broker (vu juste au dessus)
 
 __END__
