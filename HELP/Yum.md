@@ -9,6 +9,7 @@ yum clean all
 rm -rf /var/cache/yum 
 ```
 > (nettoie le cache de yum)
+
 > (supprime le dossier de chache de yum ,permet de se débarraser des orphelins)
 
 si cela ne fonctionne toujours pas et que les repo sont indsponible
