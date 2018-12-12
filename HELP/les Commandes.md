@@ -19,8 +19,9 @@ perl [nom_du_plugin].pl --plugin [chemin du plugin] --mode [nom du mode] --[para
 vous pouvez cherche un plugin en tapant
 ```Shell
 perl [nom_du_plugin].pl --list-plugin
-(conseil fait un | grep de ce que vous cherchez pour ne pas avoir une tros grande liste)
 ```
+> conseil fait un `| grep` de ce que vous cherchez pour ne pas avoir une tros grande liste
+
 vous pouvez cherchez un mode en tapant 
 ```Shell
 perl [nom_du_plugin].pl --plugin [chemin du plugin] --list-mode
