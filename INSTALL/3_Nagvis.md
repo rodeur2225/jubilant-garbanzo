@@ -30,4 +30,20 @@ verfifer la présences des icones par un ls
 
 n'oubliez pas de suprier jubilant-garbanzo quand vou aurez fini
 
+## l'install
+
+dans le dossier 3_Nagvis il y a un fichier install.sh lancez le et vous n'aurez plus rien a faire le detail de l'installation et donnée pendant l'installation (tout les iconsets seront installer)
+
+si vous ne pouvez pas lancer install
+
+```Shell
+./install.sh
+```
+
+tapez
+
+```Shell
+sudo chmod 775 install.sh
+```
+
 __END__
