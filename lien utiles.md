@@ -35,7 +35,7 @@
  
  ## Centreon 
  
- lsit officiel de [Centreon](https://www.centreon.com/)
+ le site officiel de [Centreon](https://www.centreon.com/)
  
  ## la doc centreon
  
