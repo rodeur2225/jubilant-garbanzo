@@ -15,7 +15,7 @@ si vous souhaitez installer tout les plugins disponilbe (en open source) de cent
   (le tout avec les dépendance au module perl et au librairie qui vont avec)
 allez lire [le sacro saint yum](https://github.com/rodeur2225/jubilant-garbanzo/blob/master/le%20sacro%20saint%20yum) (_malgrés son efficacité je ne recommande pas de tout installer prenez seulement ce dont vous avez besoin_).
 
-_**!!** si vous réaliser l'installation du [sacro saint yum](https://github.com/rodeur2225/jubilant-garbanzo/blob/master/le%20sacro%20saint%20yum) n'installer pas 1_module perl il sera inutil et risque de créé des conflit **!!**_
+_**!!** si vous réaliser l'installation du [sacro saint yum](https://github.com/rodeur2225/jubilant-garbanzo/blob/master/le%20sacro%20saint%20yum) n'installez pas 1_module perl il sera inutil et risque de créé des conflit **!!**_
 
 si il y a un probleme une question vous pouvez toujour laissez une [issue](https://github.com/rodeur2225/jubilant-garbanzo/issues) (je repondrais si je peut)
   
