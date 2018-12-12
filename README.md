@@ -19,3 +19,8 @@ _**!!** si vous réaliser l'installation du [sacro saint yum](https://github.com
 
 si il y a un probleme une question vous pouvez toujour laissez une [issue](https://github.com/rodeur2225/jubilant-garbanzo/issues) (je repondrais si je peut)
   
+  ## la commande de clone :
+  
+  ```Shell
+  git clone https://github.com/rodeur2225/jubilant-garbanzo.git
+  ```
