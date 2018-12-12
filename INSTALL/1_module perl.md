@@ -1,5 +1,7 @@
 # installation de module perl
 
+__l'installation de ces modules n'est nécessaire que si vous ne passer pas du tout par l'install par yumdes plugins__
+
 au prélable si vous ne l'avez pas encore fais tapez ces commande :
   + cpan app::cpanminus (en premier c'est trés important sinon vous ne pourrez **PAS** executez les autres)
   + cpanm Module::Install::AuthorTests
@@ -14,7 +16,18 @@ au prélable si vous ne l'avez pas encore fais tapez ces commande :
 
 _**!!** si vous avez fais l'installation complete celon le sacro saint yum cette installation est inutile **!!**_
 
-### pour le plugin VMWARE
+### pour le plugin VMWARE 
+
+ce plugin est disponible via yum pour l'installer taper ces commandes :
+
+```Shell
+yum install centreon-plugin-Virtualization-VMWare-deamon.noarch
+yum install centreon-plugin-Virtualization-VMWare2-Connector-plugin.noarch
+yum install centreon-plugin-Virtualization-VMWare2-Esx-Wsman.noarch
+
+```
+
+sinon si vous souhaitez l'instellez vous même le plugin est dispo dans centreon-plugins mais nécéssite que l'on lui installe des librairie
 
 voici l'ordre d'installation :
 
