@@ -53,6 +53,6 @@ et cree une template utilisant votre commande
 
 > conseil donnez deja un nom 
 > des intervalle des notification et de check a ce template 
-> comme sa vous n'aurez plus a le faire quand vous creerez un service utilisant notre nouvelle commande)
+> comme sa vous n'aurez plus a le faire quand vous creerez un service utilisant notre nouvelle commande
 
 __END__
