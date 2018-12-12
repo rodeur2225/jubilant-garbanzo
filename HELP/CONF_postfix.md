@@ -1,5 +1,7 @@
+# Postfix
+
 pour que centreon puisse vous envoyer des mails il lui faut un relay ,
-pour cela nous utiliserons le service postfix, voici comment le configuerer
+pour cela nous utiliserons le service postfix, voici comment le configurer
 
 acceder a la configuration comme cela :
 
@@ -9,6 +11,8 @@ vim /etc/postfix/main.cf
 
 ecrivez ou renseigner ou verifier ces lignes :
 
+
+```cf
 mail_owner = postfix
 
 myhostname= centreon.[domaine].[tld]
@@ -21,12 +25,11 @@ inet_intrerfaces = localhost
 inet_protocols = all
 
 mydestination = 
-(oui cest vide c'est normale)
 
 relayhost = [ [serveur de mail] ]:[port utilisé par le serveur mail]
+```
 
----
-une fois cela fais  faite :
+une fois cela fais faite :
 
 ```Shell
 restart service postfix
