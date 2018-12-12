@@ -1,5 +1,0 @@
-si un oid que vous recuperez sur le net ne fonctionne pas , prenons pour exemple le 
-1.3.6.1.2.1.1.1 essayer soit de mettre un point devant : .1.3.6.1.2.1.1.1 soit de mettre un .0 a la fin : 1.3.6.1.2.1.1.1.0 soit les deux
-ce qui nous done .1.3.6.1.2.1.1.1.0
-si cela ne fonctoinnne toujours verifez que votre appareil est ouvert en snmp
-mais aussi que vous avez interroger le bonne OID.
