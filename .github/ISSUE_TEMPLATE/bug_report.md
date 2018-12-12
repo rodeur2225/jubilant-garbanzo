@@ -25,8 +25,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Config (please complete the following information):**
 - version centreon
-- installation (vm, iso, ... )
--additional config info
+- install(vm, iso, ... )
+- additional config info
 
 **Additional context**
 Add any other context about the problem here.
