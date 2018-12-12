@@ -1,13 +1,17 @@
+# Les Commandes 
+
 pour cree les commande rien de plus simple regarder dans configuration -> commande -> check
+
 comment sont ecrite les commande et chercher ensuite dans les plugin ce dont vous avez besoin
 
-pour faciliter la tache allez dans la doc Centreon plugin pack (je l'ai ajouter sur la page principale de monitoring) et faite un Ctrl+F de ce dont vous avez besoins
+pour faciliter la tache allez dans la doc Centreon plugin pack (je l'ai ajouter sur la page principale de monitoring) et faite un `Ctrl+F` de ce dont vous avez besoins
 
 connectez vous en SSH a centreon et allez dans /usr/lib/centreon/plugins
+
 SI :
-+ vous cherchez un plugin nagios (il sont dispo dans le git) le chemin sera plustot /usr/lib/nagios/plugin (si vous avez bien suivi mon installation
++ vous cherchez un plugin nagios (il sont dispo dans le git) le chemin sera plutot /usr/lib/nagios/plugin 
 + vous utilisez les plugin opensource de github tout en un le chemin sera /usr/lib/centreon/plugins/centreon-plugins
-+ vous ete passez par le yum install centreon-* le chemin sera /usr/lib/centreon/plugins tout les plugin y seron en vrac
++ vous ete passez par le yum install centreon-* le chemin sera /usr/lib/centreon/plugins tout les plugin y seront en vrac
 
 peut import la condition (sauf pour les nagios) les plugin s'utilise de la sorte
 perl [nom_du_plugin].pl --plugin [chemin du plugin] --mode [nom du mode] --[parametre1] --[parametre2] --[parametre3] ...
