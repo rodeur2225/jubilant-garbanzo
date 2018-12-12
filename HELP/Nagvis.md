@@ -18,3 +18,5 @@ pour corriger cela faite un `locate` du nom de votre carte dans le terminal,
 et supprimer manuellement tout les fichier contenant le nom de votre carte,
 
 (verifier quand même que ces fichier que vous comptez supprimer __appartiennent__ au dossier nagvis)
+
+__END__
