@@ -1,5 +1,6 @@
 ## les mises a jour 
-il suffit de suivre la documentation elle est suffisament claire pour etre suivi
+il suffit de suivre la documentation elle est suffisament claire pour être suivi à la lettre,
+
 __MAIS__ si lors de la mise a jour des package on obtient une erreur (en generale une erreur __404__) faite ceci :
 ```Shell
 yum clean all
