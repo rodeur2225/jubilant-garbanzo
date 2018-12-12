@@ -18,6 +18,8 @@ allez lire [le sacro saint yum](https://github.com/rodeur2225/jubilant-garbanzo/
 _**!!** si vous réaliser l'installation du [sacro saint yum](https://github.com/rodeur2225/jubilant-garbanzo/blob/master/le%20sacro%20saint%20yum) n'installez pas 1_module perl il sera inutil et risque de créé des conflit **!!**_
 
 si il y a un probleme une question vous pouvez toujour laissez une [issue](https://github.com/rodeur2225/jubilant-garbanzo/issues) (je repondrais si je peut)
+
+mais __avant__ de m'envoyer une demande regarder sur le github centreon ou sur les forum de centreon.
   
   ## la commande de clone :octocat: :
   
