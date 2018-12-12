@@ -1,7 +1,7 @@
-/*--- les mises a jour ---*/
+## les mises a jour 
 il suffit de suivre la documentation elle est suffisament claire pour etre suivi
-MAIS si lors de la mise a jour des package on obtient une erreu faite ceci :
-```Shel
+__MAIS__ si lors de la mise a jour des package on obtient une erreur (en generale une erreur __404__) faite ceci :
+```Shell
 yum clean all
 rm -rf /var/cache/yum/*
 ```
