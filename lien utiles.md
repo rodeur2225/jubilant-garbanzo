@@ -32,4 +32,15 @@
   ils sont aussi tres actifs et s'occupe de toute la partie open source c'est eux qui sont a l'origine du plugin pack tout en un seul plugin
  
  https://github.com/centreon
+ 
+ ## Centreon 
+ 
+ lsit officiel de [Centreon](https://www.centreon.com/)
+ 
+ ## la doc centreon
+ 
++ [centreon](https://documentation-fr.centreon.com/docs/centreon/en/latest/)
++ [centreon plugins packs](https://documentation.centreon.com/docs/plugins-packs/en/latest/)
++ [centreon plugins](https://documentation.centreon.com/docs/centreon-plugins/en/latest/index.html) (opensource)
++ [centreon awie](https://documentation.centreon.com/docs/centreon-awie/en/latest/) 
   
