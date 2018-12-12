@@ -108,12 +108,23 @@ Poller [Central]
 appuyer sur export
 
 ## Central not runing 
-quand l'icone et rouge en haut a gauche de l'écran cela signifie que le collecteur ne fonctionne pas 
-les données de monitoring ne se mettent donc plus a jour
-pour regler cela vous pouvez essayer tout d'abord de [Restart] le Monitoring Engine (exportation de config)
-sinon rendez vous dans l'interface en ligne de commande de centreon (accessible via ssh) et taper :
-systemctl restart cbd (a pour effet de redémarrer centreon broker)
+quand l'icone est Rouge en haut a gauche de l'écran cela signifie que le collecteur ne fonctionne pas (not running) 
+les données de monitoring ne se mettent donc plus a jour.
 
-/*--- l'exportation de la configuration reste a 0% ---*/
-passer par autre navigateur web
-ou vider le cache de celui que vous utilisez
+pour regler cela vous pouvez essayer tout d'abord de [**Restart**] vu juste au dessus,
+
+sinon rendez vous dans l'interface en ligne de commande de centreon (accessible via ssh) et taper :
+
+```Shell
+systemctl restart cbd 
+```
+
+ceci a pour effet de redémarrer centreon broker.
+
+## l'exportation de la configuration reste a __0%__ 
+si cela arrrive :
++ changez de navigateur
++ ou vider le cache de votre navigateur actuel
++si les 2 options du dessus ne fonctionne pas redemarrer centreon broker (vu juste au dessus)
+
+__END__
