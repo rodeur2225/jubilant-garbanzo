@@ -7,14 +7,15 @@ pour faciliter la tache allez dans la doc Centreon plugin pack (je l'ai ajouter 
 connectez vous en SSH a centreon et allez dans /usr/lib/centreon/plugins
 
 SI :
-+ vous cherchez un plugin nagios (il sont dispo dans le git) le chemin sera plutot /usr/lib/nagios/plugin 
-+ vous utilisez les plugin opensource de github tout en un le chemin sera /usr/lib/centreon/plugins/centreon-plugins
-+ vous ete passez par le yum install centreon-* le chemin sera /usr/lib/centreon/plugins tout les plugin y seront en vrac
++ vous cherchez un plugin __nagios__ (il sont dispo dans le git) le chemin sera plutot `/usr/lib/nagios/plugin` 
++ vous utilisez les plugin __opensource__ de github tout en un le chemin sera `/usr/lib/centreon/plugins/centreon-plugins`
++ vous ete passez par le `yum` pour installer les plugins le chemin sera `/usr/lib/centreon/plugins` tout les plugin y seront en vrac
 
-peut import la condition (sauf pour les nagios) les plugin s'utilise de la sorte
+peut import la condition les plugins s'utilise de la sorte
 ```Shell
 perl [nom_du_plugin].pl --plugin [chemin du plugin] --mode [nom du mode] --[parametre1] --[parametre2] --[parametre3] ...
 ```
+
 vous pouvez cherche un plugin en tapant
 ```Shell
 perl [nom_du_plugin].pl --list-plugin
