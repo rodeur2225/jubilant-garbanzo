@@ -33,8 +33,13 @@ voici l'ordre d'installation :
 
 ###### ZMQ :
   + libzmq-master.zip
-    (l'installation de cette librairie est faite dans /usr/local/lib un fois l'installation realisé taper cette commande
-     mv /usr/local/lib/libzmq.so.5* /usr/lib64 )
+  
+    l'installation de cette librairie est faite dans /usr/local/lib un fois l'installation realisé taper cette commande
+    
+    ```Shell
+    mv /usr/local/lib/libzmq.so.5* /usr/lib64
+    ```
+    
   + LibZMQ4
   
 ###### uuid :
