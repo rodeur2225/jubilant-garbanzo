@@ -17,7 +17,7 @@ HTTP_PROXY=http://squid2.uhi.ac.uk:8080/
 TIMEOUT=30
 
 # The default error code is unknown in case I haven't thought of something
-ERROR_CODE=-1
+ERROR_CODE=3
 
 # comment this out to see the output from wget on the command line (and in the cron output)
 LOG="-o /dev/null"
@@ -106,7 +106,7 @@ fi
 exit $ERROR_CODE;
 
 # Predefined exit codes for Nagios/NetSaint
-#	UNKNOWN  = 3
+#	UNKNOWN  =  3
 #	OK       =  0
 #	WARNING	 =  1
 #	CRITICAL =  2
