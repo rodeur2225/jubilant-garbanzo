@@ -10,7 +10,7 @@
 # establish the default settings
 #
 # this can be overridden on the command line, but as long as the Nagios instance is up, this URL should work
-SAMPLE_URL=http://uptime.uhi.ac.uk/
+SAMPLE_URL=https://perdu.com
 
 # This is always overriden with a single host URL and is only provided as an example
 HTTP_PROXY=http://squid2.uhi.ac.uk:8080/
