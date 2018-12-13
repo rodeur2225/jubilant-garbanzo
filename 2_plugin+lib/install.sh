@@ -20,7 +20,7 @@ else
 fi
 	
 echo -e "les plugins other sont installer dans centreon-plugins \nles voici :"
-perl /use/lib/centreon/plugins/centreon-plugins/centreon_plugins.pl --list-plugin | grep other
+perl /usr/lib/centreon/plugins/centreon-plugins/centreon_plugins.pl --list-plugin | grep other
 echo "tapez <entrer> pour continuer"
 read touch
 echo "centreon-plugins est installe dans /usr/lib/centreon/plugins"
@@ -28,7 +28,7 @@ echo "installation des scripts et plugins nagios"
 if [ -d /usr/lib/centreon_sh ];then
 	rm -rf /usr/lib/centreon_sh
 fi
-if [ -d /usru/lib/nagios ];then 
+if [ -d /usr/lib/nagios ];then 
 	rm -rf /usr/lib/nagios
 fi
 mv ./3_lib/* /usr/lib
