@@ -3,6 +3,8 @@
 # Check the status of a proxy server by downloading a sample URL directly and through the proxy and then comparing the two files
 # 
 # -- Written 2008/03/13 TA
+# Adaptation pour centreon
+# -- EDIT 2018/12/13
 
 
 # establish the default settings
@@ -105,7 +107,7 @@ fi
 
 exit $ERROR_CODE;
 
-# Predefined exit codes for Nagios/NetSaint
+# Predefined exit codes for centreon
 #	UNKNOWN  =  3
 #	OK       =  0
 #	WARNING	 =  1
