@@ -18,8 +18,8 @@ sub new {
 	$self->{version} = '1,0';
 	$options{options}->add_options(arguments =>
 		{
-			"proxy-addr" => { name => 'PADDR' },
-		        "search"    => { name =>'search', default => 'https://perdu.com' },
+			"proxy-addr:s" => { name => 'PADDR' },
+		        "search:s"    => { name =>'search', default => 'https://perdu.com' },
 			"timeout"   => { name => 'timeout', default => 30 },
 		});
 	return $self;
@@ -38,9 +38,8 @@ sub check_options {
 
 sub run {
 	my ($self, %options) = @_;
-	my $prefixe="/usr/lib/centreon_sh/scripts/check_proxy ";
-	my $space=" ";
-	printf (`/usr/lib/centreon_sh/scripts/check_proxy.sh $self->{option_restults}->{PADDR}$self->{option_results}->{search} $self->{option_results}->{timeout}`);   
+	my $cmd='/usr/lib/centreon_sh/check_proxy.sh ' . $self->{option_restults}->{PADDR} . ' ' . $self->{option_restults}->{search} . ' ' . $self->{option_restults}->{timeout}
+	printf (`$cmd`);   
 	$self->{output}->exit();
 }
 
