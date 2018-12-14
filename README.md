@@ -1,7 +1,5 @@
 # jubilant-garbanzo
 
-ce git ne me sert que de platform de transfert vers mes machines virtuel qui sont sous linux
-
 __important__
 
 la pluspart des élément de ce git ne mapartiennet pas il sont open sources et disponible sur les sites que je decris en liens utile,
