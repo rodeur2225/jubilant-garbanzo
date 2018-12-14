@@ -3,8 +3,12 @@
 ce git ne me sert que de platform de transfert vers mes machines virtuel qui sont sous linux
 
 __important__
+
 la pluspart des élément de ce git ne mapartiennet pas il sont open sources et disponible sur les sites que je decris en liens utile,
-de plus ce git nest ni officiellement ni meme reconnu par centreon et ces contributeur ce git n'est pour moi qu'une plateforme de transefert adapté a mes besoins
+
+de plus ce git nest ni officiellement ni meme reconnu par centreon et ces contributeur 
+
+ce git n'est pour moi qu'une plateforme de transfert adapté a mes besoins
 
 le seul dossier mappartenant est celui [ci](https://github.com/rodeur2225/jubilant-garbanzo/tree/master/2_plugin%2Blib/2_other) 
 
