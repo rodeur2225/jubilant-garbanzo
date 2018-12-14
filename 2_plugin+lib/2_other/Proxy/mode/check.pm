@@ -7,7 +7,7 @@ package other::Proxy::mode::check;
 use base qw(centreon::plugins::mode);
 
 use strict;
-use warnings
+use warnings;
 use centreon::plugin::misc;
 
 sub new {
