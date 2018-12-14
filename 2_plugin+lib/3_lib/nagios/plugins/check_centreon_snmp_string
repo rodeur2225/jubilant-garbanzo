@@ -137,7 +137,6 @@ my $session = Centreon::SNMP::Utils::connection($ERRORS{'UNKNOWN'}, $session_par
 # Get the value returned by OID
 my $result = Centreon::SNMP::Utils::get_snmp_leef([$OPTION{'oid'}], $session, $ERRORS{'UNKNOWN'});
 $currentValue = $result->{$OPTION{'oid'}};
-p
 
 # Check if value returned is a number and then save it
 if (!defined($currentValue) ||  $currentValue =~ /noSuch/){
