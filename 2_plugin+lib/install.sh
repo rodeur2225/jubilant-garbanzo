@@ -10,7 +10,7 @@ if [ ! -d /usr/lib/centreon/plugins/centreon-plugins ];then
 	false
 	chmod 775 ./centreon-plugins/centreon_plugins.pl
 	echo "installation de du package de plugin other (plugin perso)"
-	mv -f ./2_other ./centreon-plugins/other
+	mv -f ./2_other/* ./centreon-plugins/other
 	mv -f ./centreon-plugins /usr/lib/centreon/plugins
 else
 	if [ -d /usr/lib/centreon/plugins/centreon-plugins/other ];then
