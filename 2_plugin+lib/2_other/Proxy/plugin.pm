@@ -14,7 +14,7 @@ sub new {
 	bless $self,$class;
 
 	$self->{version} = '0,1';
-	%{$self->{mode}} = (
+	%{$self->{modes}} = (
 		'check' => 'other::Proxy::mode::check',
 	);
 	return $self;
