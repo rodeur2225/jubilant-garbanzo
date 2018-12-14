@@ -38,7 +38,9 @@ sub check_options {
 
 sub run {
 	my ($self, %options) = @_;
-	printf (`/usr/lib/centreon_sh/scripts/check_proxy $self->{option_restults}->{PADDR} $self->{option_results}->{search} $self->{option_results}->{timeout}`);   
+	my $prefixe="/usr/lib/centreon_sh/scripts/check_proxy ";
+	my $space=" ";
+	printf (`$prefixe$self->{option_restults}->{PADDR}$space$self->{option_results}->{search}$space$self->{option_results}->{timeout}`);   
 	$self->{output}->exit();
 }
 
