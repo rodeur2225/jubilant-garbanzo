@@ -19,7 +19,7 @@ else
 	if [ -d /usr/lib/centreon/plugins/centreon-plugins/other ];then
 		rm -rf /usr/lib/centreon/plugins/centreon-plugins/other
 		mkdir /usr/lib/centreon/plugins/centreon-plugins/other
-		mv -f ./2_other /usr/lib/centreon/plugins/centreon-plugins/other
+		mv -f ./2_other/* /usr/lib/centreon/plugins/centreon-plugins/other
 	fi		
 fi
 	
