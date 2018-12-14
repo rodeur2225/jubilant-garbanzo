@@ -17,8 +17,8 @@ if [ ! -d /usr/lib/centreon/plugins/centreon-plugins ];then
 else
 #si centreon-plugins est deja installé on se content d'y rahouter les plugins
 	if [ -d /usr/lib/centreon/plugins/centreon-plugins/other ];then
-		rm -rf /usr/lib/centreon/plugins/centren-plugins/other
-		mkdir /usr/lib/centreon/plugins/centren-plugins/other
+		rm -rf /usr/lib/centreon/plugins/centreon-plugins/other
+		mkdir /usr/lib/centreon/plugins/centreon-plugins/other
 		mv -f ./2_other /usr/lib/centreon/plugins/centreon-plugins/other
 	fi		
 fi
