@@ -17,8 +17,8 @@ pour ce qui est des images que vous trouverez celle commencant par :
 + wifi
 + led
 
-sont des images que j'ai produit ou modifier merci de ne __PAS__ les utiliser a titre commercial
-les autres image appartiennent a cisco il sont libre d'utilisation (hors commercial) et libre d'accés mais ne doivent en aucun cas etre modifier, rendez vous sur le site de cisco pour plus d'information.
+sont des images que j'ai produit ou modifier merci de ne __PAS__ les utiliser a titre commercial.
+Les autres image appartiennent a cisco il sont libre d'utilisation (hors commercial) et libre d'accés mais ne doivent en aucun cas etre modifier, rendez vous sur le site de cisco pour plus d'information.
 
 > merci de votre bon sens a l'égard de ce message
 
