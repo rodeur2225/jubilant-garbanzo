@@ -12,7 +12,7 @@
 
   https://metacpan.org/
   
-  installation des modules perl vian CPAN
+  installation des modules perl via CPAN
   
 ## les archive tar.gz
 
