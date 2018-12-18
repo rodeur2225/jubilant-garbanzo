@@ -19,7 +19,7 @@ if [ ! -d "/tmp/clapi-export" ];then
 	mkdir /tmp/clapi-export
 fi
 
-/bin/centreon -u admin -p stage2018 -e > $p$d$e
+/bin/centreon -u dsi -p stage2018 -e > $p$d$e
 if [ $? != 0 ];then
 	echo "Command failed verifier les permission de centreon-engine sur le dossier"
 	exit $STATE_UNKNOWN
