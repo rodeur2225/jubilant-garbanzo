@@ -32,7 +32,9 @@
 \<set>_warning_dt.png	       |  Warning state in downtime
 \<set>_warning_stale.png	   |  Stale warning state
 
+
 __il faut au moin un \<set>_ok.png pour avoir un iconset__
+
 
 \<set> = nom du pack d'icone
 
