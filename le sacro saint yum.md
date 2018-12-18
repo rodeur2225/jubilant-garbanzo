@@ -36,4 +36,4 @@ un **MUST** a avoir est :
 
 ces paquet peuvent s'averez trés utile, ceci est un conseil
   
-si vous rencontrez des probleme avec yum tel q'une erreur 404 referez vous au fichier [/HELP/Yum.md](https://github.com/rodeur2225/jubilant-garbanzo/blob/master/HELP/Yum.txt)
+si vous rencontrez des probleme avec yum tel q'une erreur 404 referez vous au fichier [/HELP/Yum.md](https://github.com/rodeur2225/jubilant-garbanzo/blob/master/HELP/Yum.md)
