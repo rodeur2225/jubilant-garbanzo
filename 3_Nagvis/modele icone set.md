@@ -1,7 +1,7 @@
 ## contenu complet d'un iconset :
 
-Filename | Description
----------|----------
+                    Filename | Description
+                    ---------|----------
 \<set>_critical.png	         |   Critical state
 \<set>_critical_ack.png      |	 Acknowledged critical state
 \<set>_critical_dt.png	     |   Critical state in downtime
@@ -32,7 +32,7 @@ Filename | Description
 \<set>_warning_dt.png	       |  Warning state in downtime
 \<set>_warning_stale.png	   |  Stale warning state
 
-il faut au moin un \<set>_ok.png pour avoir un iconset
+__il faut au moin un \<set>_ok.png pour avoir un iconset__
 
 \<set> = nom du pack d'icone
 
