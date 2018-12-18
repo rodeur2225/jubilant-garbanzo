@@ -4,7 +4,7 @@ __important__
 
 la pluspart des élément de ce git ne mapartiennet pas il sont open sources et disponible sur les sites que je decris en liens utile,
 
-de plus ce git n'est pas officiellement reconnu (ni même reconnu tout cour par ailleur) par centreon et ces contributeur 
+de plus ce git n'est pas officiellement reconnu (ni même reconnu tout cour par ailleur) par centreon et ses contributeur 
 
 ce git n'est pour moi qu'une plateforme de transfert adapté a mes besoins
 
