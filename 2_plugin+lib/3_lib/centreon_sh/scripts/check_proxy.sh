@@ -102,8 +102,8 @@ fi
 
 
 
-#if [ -e $UNPROXIED_FILE ]; then rm $PROXIED_FILE; fi
-#if [ -e $PROXIED_FILE ]; then rm $PROXIED_FILE; fi
+if [ -e $UNPROXIED_FILE ]; then rm $PROXIED_FILE; fi
+if [ -e $PROXIED_FILE ]; then rm $PROXIED_FILE; fi
 
 exit $ERROR_CODE;
 
