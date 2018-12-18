@@ -7,7 +7,7 @@
 
 ## l'install
 
-dans le dossier 3_Nagvis il y a un fichier install.sh lancez le et vous n'aurez plus rien a faire le detail de l'installation et donnée pendant l'installation (tout les iconsets seront installer)
+dans le dossier 3_Nagvis il y a un fichier install.sh lancez le et vous n'aurez plus rien a faire le detail de l'installation et donnée pendant l'installation (__tout__ les iconsets seront installer)
 
 si vous ne pouvez pas lancer install
 
