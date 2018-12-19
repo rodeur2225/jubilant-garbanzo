@@ -51,7 +51,7 @@ __END__
 
 verfife le bon fonctionnement d'un proxy en telecharger deux fois la meme page web (via wget)
 une page est telecharger en passant par le proxy
-l'autre est directment telechargé
+l'autre est directment telecharge
 
 les pages sont ensuit si elle identique tout va bien
 
@@ -67,7 +67,7 @@ page web a telachargé (https://perdu.com par défaut)
 
 =item B<--timeout>
 
-temps limite de la requête envoyer (30 par default)
+temps limite de la requete envoyer (30 par default)
 ce temps ne doit etre ni trop long ni trop court
 
 =back
