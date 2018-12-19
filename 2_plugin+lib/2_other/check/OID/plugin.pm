@@ -27,5 +27,6 @@ __END__
 =head1 PLUGIN DESCRIPTION
 
 Check OID
+NON FONCTIONNEL
 
 =cut
