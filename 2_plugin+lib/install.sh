@@ -33,12 +33,12 @@ sleep 3
 echo "installation des scripts et plugins nagios"
 sleep 3
 if [ -d /usr/lib/centreon_sh ];then
-	echo "fichier existant remplacement"
+	echo "centreon_sh existant remplacement"
 	sleep 2
 	rm -rf /usr/lib/centreon_sh
 fi
 if [ -d /usr/lib/nagios ];then
-	echo "fichier existant remplacement"
+	echo "nagios existant remplacement"
 	sleep 2
 	rm -rf /usr/lib/nagios
 fi
