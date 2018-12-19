@@ -46,3 +46,30 @@ sub run {
 1;
 
 __END__
+
+=head1 MODE
+
+verfife le bon fonctionnement d'un proxy en telecharger deux fois la meme page web (via wget)
+une page est telecharger en passant par le proxy
+l'autre est directment telechargé
+
+les pages sont ensuit si elle identique tout va bien
+
+=over 8
+
+=item B<--proxy-addr>
+
+l'adresse IP du proxy (obligatoire)
+
+=item B<--search>
+
+page web a telachargé (https://perdu.com par défaut)
+
+=item B<--timeout>
+
+temps limite de la requête envoyer (30 par default)
+ce temps ne doit etre ni trop long ni trop court
+
+=back
+
+=cut
