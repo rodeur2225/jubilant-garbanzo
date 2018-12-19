@@ -52,7 +52,9 @@ __END__
 
 =head1 MODE
 
-export config
+export la configuration de centreon vers /tmp/clapi-export
+si ce plugin ne fonctionnne pas vérifier les idenifiants et mot de passe entre dans Export.sh dans /usr/lib/centreon_sh
+verfifier aussi les autorisation donné au plugin et au scripts
 
 =over 8 
 
