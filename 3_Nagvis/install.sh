@@ -3,7 +3,7 @@ echo "verification de l'installation de mlocate"
 yum install -y -q mlocate
 echo "verfification de l'instalation de nagvis"
 sleep 2
-$pwd=`locate --regex /usr/share/nagvis$`
+$pwd=`locate --regex ^/usr/share/nagvis$`
 if [ ! $pwd == "/usr/share/nagvis" ];then
   echo "nagvis n'est pas installé fin de l'installation (voire les ateleir de kermith pour l'installation)"
   exit 2
