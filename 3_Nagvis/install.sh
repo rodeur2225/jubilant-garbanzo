@@ -9,7 +9,7 @@ if [ ! $pwd == "/usr/share/nagvis" ];then
   exit 2
 fi
 echo "nagvis est present exportation des icones vers nagvis"
-sleep2
+sleep 2
 mv ./*_*/*_* /usr/share/nagvis/share/userfiles/images/iconsets
 echo "vos icones sont installé les voici"
 sleep 2
