@@ -26,6 +26,6 @@ __END__
 
 =head1 PLUGIN DESCRIPTION
 
-verification de l'état d'un proxy
+verification de l'etat d'un proxy
 
 =cut
