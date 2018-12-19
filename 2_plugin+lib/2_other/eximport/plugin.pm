@@ -26,6 +26,8 @@ __END__
 
 =head1 PLUGIN DESCRIPTION
 
-Export or Import centreon configguration
+Exportation ou importation de la configuration centreon
+
+(importation pas encore integrer)
 
 =cut
