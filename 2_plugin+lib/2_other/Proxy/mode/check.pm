@@ -1,6 +1,6 @@
 # Autheur Thibaut Depond
 # Date 13/12/2018
-# conpare une page GET en passant pas par le proxy en en ne passant par le proxy
+# compare une page web (telecharger via wget) en passant par le proxy en en ne passant pas par le proxy
 
 package other::Proxy::mode::check;
 
