@@ -47,7 +47,7 @@ sans oublier les arguments
 
 une fois votre commande taper, enregistrez la (une exporation de la configuration __n'est pas__ nécéssaire)
 
-pour pouvoir utiliser __efficacement__ cette commande il f'aut l'integrer a un template de service
+pour pouvoir utiliser __efficacement__ cette commande il faut l'integrer a un modèle de service
 
 allez dans configuration -> Services -> template
 
