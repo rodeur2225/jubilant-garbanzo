@@ -2,7 +2,7 @@
 
 __l'installation de ces modules n'est nécessaire que si vous ne passer pas du tout par l'install par yum des plugins__
 
-__ATTENTION ceci est valable aujourd'hui en decembre 2018 sur centreon 18.10 il est naturellement conseiller deprendre les modules adapté a VOTRE version ou les modules les plus recents (stable de préférence)__ 
+__ATTENTION ceci est valable aujourd'hui en decembre 2018 sur centreon 18.10 il est naturellement conseiller de prendre les modules adapté a VOTRE version ou les modules les plus recents (stable de préférence)__ 
 
 au prélable si vous ne l'avez pas encore fais tapez ces commande :
   + cpan app::cpanminus (en premier c'est trés important sinon vous ne pourrez **PAS** executez les autres)
