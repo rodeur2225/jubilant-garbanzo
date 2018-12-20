@@ -2,7 +2,7 @@
 
 ### nécessite : 
 + [Centreon](https://www.centreon.com/en/) 
-+ [nagvis installé](http://www.sugarbug.fr/atelier/techniques/ihmweb/cartographie_supervision/centreon-web28x_nagvis-19x/)
++ [Nagvis](http://www.sugarbug.fr/atelier/techniques/ihmweb/cartographie_supervision/centreon-web28x_nagvis-19x/)
 + [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
 ## l'install
